@@ -1,0 +1,132 @@
+/* smartphone */
+@media(max-width: 500px) {
+    .container {
+        flex-direction: column;
+        width: 80%;
+        height: 90vh;
+        overflow: visible;
+    }
+
+    .top-container {
+        flex: 1;
+        line-height: 1.5rem;
+        padding: 1rem 1rem;
+    }
+
+    .bottom-container {
+        flex: 2;
+        flex-direction: column;
+    }
+
+    .right ul li {
+        line-height: 1.25rem;
+    }
+
+    .left, 
+    .right {
+        flex: 1;
+        padding: 1rem 1rem;
+    }
+}
+
+/* small tablet and laptops */
+@media(min-width: 501px) and (max-width: 767px) {
+    .container {
+        flex-direction: column;
+        width: 80%;
+        height: 70vh;
+    }
+
+    .top-container {
+        flex: 1;
+        line-height: 1.5rem;
+        padding: 2rem 1.5rem;
+    }
+
+    .bottom-container {
+        flex: 2;
+        flex-direction: row;
+    }
+
+    .right ul {
+        padding-top: 1rem;
+    }
+
+    .right ul li {
+        line-height: 1.5rem;
+    }
+
+    .left, 
+    .right {
+        flex: 1;
+        padding: 2rem 1.5rem;
+    }
+}
+
+/* ipad tablet */
+@media(min-width: 768px) and (max-width: 1023px) {
+    .container {
+        flex-direction: column;
+        width: 60%;
+        height: 50vh;
+    }
+
+    .top-container {
+        flex: 1;
+        line-height: 1.5rem;
+        padding: 2rem 1.5rem;
+    }
+
+    .bottom-container {
+        flex: 2;
+        flex-direction: row;
+    }
+
+    .right ul {
+        padding-top: 1rem;
+    }
+
+    .right ul li {
+        line-height: 1.5rem;
+    }
+
+    .left, 
+    .right {
+        flex: 1;
+        padding: 2rem 1.5rem;
+    }
+}
+
+/* ipad pro and medium laptops */
+@media(min-width: 1024px) and (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+        width: 50%;
+        height: 40vh;
+    }
+
+    .top-container {
+        flex: 1;
+        line-height: 1.5rem;
+        padding: 2rem 1.5rem;
+    }
+
+    .bottom-container {
+        flex: 2;
+        flex-direction: row;
+    }
+
+    .right ul {
+        padding-top: 1rem;
+    }
+
+    .right ul li {
+        line-height: 1.5rem;
+    }
+
+    .left, 
+    .right {
+        flex: 1;
+        padding: 2rem 1.5rem;
+    }
+}

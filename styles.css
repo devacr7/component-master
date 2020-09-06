@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+/* total body wrap */
+.wrap {
+    position: relative;
+    height: 100vh;
+}
+/* box inside body */
+.container {
+    border-radius: 10px;
+    height: 60vh;
+    width: 45%;
+    position: absolute;
+    overflow: hidden;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+/* top flex container  */
+.top-container {
+    flex: 1;
+    background-color: #fff;
+    line-height: 2rem;
+    padding: 2rem 3rem;
+}
+
+.top-container h3 {
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 1rem;
+}
+
+.top-container h4 {
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 0.25rem;
+}
+
+.top-container p {
+    color: #bbb
+}
+/* bottom flex container */
+.bottom-container {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-container .right ul {
+    list-style: none;
+}
+
+.bottom-container h3 {
+    padding-bottom: 1rem;
+}
+/* bottom left flex container */
+.left {
+    background-color: hsl(179, 62%, 43%);
+    line-height: 2rem;
+}
+
+.bottom-container .left .money-strong {
+    font-size: 1.5rem;
+}
+
+.bottom-container .left span {
+    color: ##66bfbf;
+}
+
+.bottom-container .left .second-p {
+    padding-bottom: 1rem;
+}
+
+.btn {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: hsl(179, 62%, 43%);
+    cursor: pointer;
+    transition: 0.5s;
+    background: linear-gradient(to top,hsl(71, 73%, 54%) 3%,#fff 100% );
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.btn:focus {
+    outline: none;
+} 
+/* bottom right flex container */
+.right {
+    background-color: #66bfbf;
+}
+
+.right h3 {
+    padding-bottom: 0.5rem;
+}
+
+.right ul li {
+    color: #f0f0f0;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+
+.left,
+.right {
+    color: #fff;
+    flex: 1;
+    padding: 2rem 3rem;
+}
+
